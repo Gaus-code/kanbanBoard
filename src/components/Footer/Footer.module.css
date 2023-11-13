@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.footer 
+{
+    background-color: #0067a3;
+    color: #ffffff;
+}
+
+.footer .container 
+{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerReport 
+{
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 600px)
+{
+    .footer .container 
+    {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 400px) 
+{
+    .footer-left {
+      gap: 10px;
+    }
+}

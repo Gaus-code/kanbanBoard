@@ -1,0 +1,10 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

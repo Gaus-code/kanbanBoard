@@ -1,0 +1,165 @@
+body 
+{
+    color: #000000;
+}
+.block {
+  padding: 8px 5px;
+  background-color: #ebecf0;
+  border-radius: 10px;
+  width: 282px;
+}
+
+.block h3 {
+  margin-bottom: 10px;
+}
+
+.block input {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.blockList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+  max-height: 69vh;
+}
+
+.blockTask {
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.blockNonActive {
+  padding: 8px;
+}
+
+.blockTask a {
+  display: inline-block;
+  padding: 8px;
+  width: 100%;
+  text-align: start;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.block-arrow {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+.block-arrow span {
+  display: flex;
+  padding: 10px 8px;
+  justify-content: flex-end;
+}
+
+.select__control {
+  width: 100% !important;
+  min-height: 34px !important;
+  border-radius: 5px !important;
+  border: none !important;
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+  background: #fff url(../../assets/images/taskArrow.svg) no-repeat 96% !important;
+  box-shadow: none !important;
+}
+
+.select__control:hover {
+  cursor: pointer;
+}
+
+.select__control--is-focused {
+  border-color: #fff !important;
+  border-width: 0 !important;
+}
+
+.select__control--menu-is-open {
+  border-color: #fff !important;
+  border-width: 0 !important;
+}
+
+.select__placeholder {
+  display: none !important;
+}
+
+.select__menu {
+  margin-top: 4px !important;
+  box-shadow: none !important;
+}
+
+.select__menu-list {
+  padding: 0 !important;
+  border-radius: 5px !important;
+}
+
+.select__option {
+  cursor: pointer !important;
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+.select__option:hover {
+  background-color: #dedede !important;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  color: #5e6c84;
+  width: 102px;
+  padding: 3px 2px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.6;
+  background: none;
+}
+
+.description__container {
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  padding: 25px;
+  height: 80vh;
+  position: relative;
+}
+
+.description__title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  width: calc(100% - 25px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description__text {
+  width: 100%;
+  height: 90%;
+  resize: none;
+  background: none;
+}
+
+.description__btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  transition: all 100ms linear;
+}
+
+.description__btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
